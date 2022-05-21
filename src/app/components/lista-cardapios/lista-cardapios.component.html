@@ -1,0 +1,12 @@
+<div class="lista">
+
+    <app-titulo nomedotitulo="Destaques"></app-titulo>
+
+    <span *ngFor="let cardapio of Cardapios">
+        <app-cardapio titulo="{{cardapio.titulo}}" endereco="{{cardapio.endereco}}"  cidade="{{cardapio.cidade}}" 
+        telefone="{{cardapio.telefone}}" imagem="{{cardapio.imagem}}">
+        </app-cardapio>
+    </span>
+
+    
+</div>
